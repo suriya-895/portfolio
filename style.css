@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.section__one {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.one__button {
+    background-color: orangered;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.one__h1 {
+    margin-top: 10px;
+}
+
+.one__h3 {
+    margin-top: 20px;
+}
+
+.section__two {
+    margin: 20px;
+}
+.two__h3{
+ font-size: xx-large;
+}
+
+.section__two p{
+    padding-top: 20px;
+}
+
+.section__three {
+    background-color: rgb(100, 100, 239);
+    padding: 20px;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.three__p1,
+.three__p2,
+.three__p3 {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+
+
+.section__four {
+    background-color: rgb(253, 85, 24);
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+
+.four__div {
+    padding-top: 20px;
+}
+
+.section__five{
+    background-color: black;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+.five__title a{
+    color: skyblue;
+}
+
+.section__contact{
+    margin: 20px;
+}
+input{
+    border-style: none;
+    border-bottom: solid black 2px;
+}
+textarea{
+    border: solid black 2px;
+}
+
+.section__one a{
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+}
+
+.section__contact button{
+    background-color: rgb(242, 78, 18);
+    color: black;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.section__contact input:focus{
+    outline: none;
+}
